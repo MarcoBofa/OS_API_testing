@@ -1,7 +1,7 @@
 //just a very basic simple first test with the api
 
 const fetchOwnCollection = async () => {
-  const WALLET_ADDRESS = '0x704CD00cbB8BF91038dFCF8bC008D065DDF1D8F8';
+  const WALLET_ADDRESS = process.env.WALLET_ADDRESS
 
   const options = {
     method: 'GET',
